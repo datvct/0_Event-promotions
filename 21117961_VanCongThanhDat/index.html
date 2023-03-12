@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link rel="stylesheet" href="stylesheet.css">
     <title>Event Promotions</title>
 </head>
@@ -20,12 +21,15 @@
                 <img src="img/Image 1.png" alt="">
             </div>
             <div id="menu-right">
-                <input type="search" value="" placeholder="Search Product..." class="search-input">
+                <div id="input-search">
+                    <i class="fa-sharp fa-solid fa-magnifying-glass" style="font-weight: 900;"></i>
+                    <input type="search" value="" placeholder="Search Product..." class="search-input">
+                </div>
                 <img src="img/Button 1.png" alt="">
                 <img src="img/Avatar 1.png" alt="">
             </div>
         </div>
-        <div id="Main">
+        <div id="main">
             <div id="title">Promotions</div>
             <div id="item">
                 <div id="item1">
@@ -52,15 +56,82 @@
                     <img src="img/Image 1 (2).png" alt="" width="560px" height="289px">
                 </div>
                 <div id="item3">
-                    <div id="text">
-                        <h2 id="title-item3">Gift for your skin</h2>
-                        <p>Enim officia magna ut esse aliquip irure consectetur dolor dolor commodo et. Cupid</p>
-                        <button id="button-item">Shop now</button>
-                    </div>
+                    <div class="item-right">
+                        <div id="text-item3">
+                            <h1 id="title-item3">Gift for your skin</h1>
+                            <p id="p-item3">Enim officia magna ut esse aliquip irure consectetur dolor dolor commodo et. Cupid</p>
+                            <button id="button-item">Shop now</button>
+                        </div>
+                    </div>  
                 </div>
             </div>
         </div>
-        <div id="Wrapper-bottom">Contact</div>
+        <section id="footer">
+            <div class="box-container">
+                <div class="box-container-left">
+                    <div class="box">
+                        <h2>About</h2>
+                        <div class="list-menu">
+                            <p>Home</p>
+                            <p>Shop</p>
+                            <p>Our story</p>
+                            <p>Blogs</p>
+                            <select name="English" class="English"><option>English</option></select>
+                        </div> 
+                    </div>
+                    <div class="box">
+                        <h2>Help</h2>
+                            <div class="list-menu">
+                                <p >Shippping & Return</p>
+                                <p>Track Order</p>
+                                <p>FAQs</p>  
+                        </div>
+                    </div>
+                    <div class="box">
+                        <h2>Contact</h2>
+                        <div class="list-menu">
+                            <p>Phone:</p>
+                            <p class="contact">(+1) 123 456 7893</p>
+                            <p>Email:</p>  
+                            <p class="contact">name@email.com</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="box-container-right">
+                    <div class="box-right">
+                        <h2>Receive new promotions</h2>
+                        <p id="p-right">Duis ea tempor commodo amet reprehende</p>
+                        <form action="">
+                            <div class="input_email">
+                                <div class="email-text">
+                                    <i class="fa-sharp fa-solid fa-envelope"></i>
+                                    <input type="text" placeholder="Input your email" width="50px">
+                                </div>   
+                                <button>Subscribe</button>
+                            </div>
+                            
+                            
+                        </form>
+                        <div class="img-box">
+                            <img src="img/Twitter 1.png" alt="">
+                            <img src="img/Facebook 1.png" alt="">
+                            <img src="img/LinkedIn 1.png" alt="">
+                            <img src="img/YouTube 1.png" alt="">
+                        </div>
+                        
+                        <p class="copyright">
+                            &copy;	2022 Brand, Inc. &nbsp;&bull;&nbsp;Pivacy&nbsp; &bull; &nbsp;Terms&nbsp; &bull; &nbsp;Sitemap
+                        </p>
+                    </div>
+                </div> 
+                
+
+            </div>
+                
+        </section>
+        
+
     </div> 
 </body>
 </html>
