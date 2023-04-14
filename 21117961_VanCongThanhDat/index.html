@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="stylesheet.css">
     <title>Event Promotions</title>
 </head>
+
 <body>
     <div id="wrapper">
         <div id="menu">
             <div id="menu-left">
-                <div>Shop</div>
-                <div>Offers</div>
-                <div>Our story</div>
-                <div>Blog</div>
+                <div class="col-sm-3">Shop</div>
+                <div class="col-sm-3">Offers</div>
+                <div class="col-sm-3">Our story</div>
+                <div class="col-sm-3">Blog</div>
             </div>
             <div id="menu-logo">
                 <img src="img/Image 1.png" alt="">
             </div>
             <div id="menu-right">
-                <div id="input-search">
+                <div id="input-search" class="col-sm-4">
                     <i class="fa-sharp fa-solid fa-magnifying-glass" style="font-weight: 900;"></i>
-                    <input type="search" value="" placeholder="Search Product..." class="search-input">
+                    <input type="text" value="" placeholder="Search Product..." class="form-control">
                 </div>
-                <img src="img/Button 1.png" alt="">
-                <img src="img/Avatar 1.png" alt="">
+                <img src="img/Button 1.png" class="col-sm-4" alt="">
+                <img src="img/Avatar 1.png" class="col-sm-4" alt="">
             </div>
         </div>
         <div id="main">
@@ -49,9 +54,9 @@
                             <h2 id="title-H2">Promotions Title</h2>
                             <p id="p-top">Et ipsum irure amet cupidatat mollit exercitation consequat duis aliquip. Reprehenderit Lorem veniam pariatur ess pariatur in auto tempor au</p>
                             <p id="p-bottom"><i>*Velit deserunt elit proident velit anim adipisicing</i></p>
-                            <button id="button-item">Shop now</button>      
+                            <button id="button-item">Shop now</button>
                         </div>
-                        
+
                     </div>
                     <img src="img/Image 1 (2).png" alt="" width="560px" height="289px">
                 </div>
@@ -62,14 +67,14 @@
                             <p id="p-item3">Enim officia magna ut esse aliquip irure consectetur dolor dolor commodo et. Cupid</p>
                             <button id="button-item">Shop now</button>
                         </div>
-                    </div>  
+                    </div>
                 </div>
             </div>
         </div>
         <section id="footer">
             <div class="box-container">
-                <div class="box-container-left">
-                    <div class="box">
+                <div class="box-container-left col-sm-7">
+                    <div class="box col-sm-4">
                         <h2>About</h2>
                         <div class="list-menu">
                             <p>Home</p>
@@ -77,41 +82,41 @@
                             <p>Our story</p>
                             <p>Blogs</p>
                             <select name="English" class="English"><option>English</option></select>
-                        </div> 
-                    </div>
-                    <div class="box">
-                        <h2>Help</h2>
-                            <div class="list-menu">
-                                <p >Shippping & Return</p>
-                                <p>Track Order</p>
-                                <p>FAQs</p>  
                         </div>
                     </div>
-                    <div class="box">
+                    <div class="box col-sm-4">
+                        <h2>Help</h2>
+                        <div class="list-menu">
+                            <p>Shippping & Return</p>
+                            <p>Track Order</p>
+                            <p>FAQs</p>
+                        </div>
+                    </div>
+                    <div class="box col-sm-4">
                         <h2>Contact</h2>
                         <div class="list-menu">
                             <p>Phone:</p>
                             <p class="contact">(+1) 123 456 7893</p>
-                            <p>Email:</p>  
+                            <p>Email:</p>
                             <p class="contact">name@email.com</p>
                         </div>
                     </div>
-                    
+
                 </div>
-                <div class="box-container-right">
+                <div class="box-container-right col-sm-5">
                     <div class="box-right">
                         <h2>Receive new promotions</h2>
                         <p id="p-right">Duis ea tempor commodo amet reprehende</p>
                         <form action="">
                             <div class="input_email">
-                                <div class="email-text">
+                                <div class="email-text col-sm-9">
                                     <i class="fa-sharp fa-solid fa-envelope"></i>
                                     <input type="text" placeholder="Input your email" width="50px">
-                                </div>   
-                                <button>Subscribe</button>
+                                </div>
+                                <button class="col-sm-3">Subscribe</button>
                             </div>
-                            
-                            
+
+
                         </form>
                         <div class="img-box">
                             <img src="img/Twitter 1.png" alt="">
@@ -119,19 +124,20 @@
                             <img src="img/LinkedIn 1.png" alt="">
                             <img src="img/YouTube 1.png" alt="">
                         </div>
-                        
+
                         <p class="copyright">
-                            &copy;	2022 Brand, Inc. &nbsp;&bull;&nbsp;Pivacy&nbsp; &bull; &nbsp;Terms&nbsp; &bull; &nbsp;Sitemap
+                            &copy; 2022 Brand, Inc. &nbsp;&bull;&nbsp;Pivacy&nbsp; &bull; &nbsp;Terms&nbsp; &bull; &nbsp;Sitemap
                         </p>
                     </div>
-                </div> 
-                
+                </div>
+
 
             </div>
-                
-        </section>
-        
 
-    </div> 
+        </section>
+
+
+    </div>
 </body>
+
 </html>
